@@ -1,0 +1,24 @@
+{
+  "server": {
+    "host": "0.0.0.0",
+    "port": 8000,
+    "debug": false
+  },
+  "database": {
+    "host": "localhost",
+    "port": 3306,
+    "user": "root",
+    "password": "",
+    "database": "test"
+  },
+  "security": {
+    "allowed_tables": [],
+    "allowed_operations": ["SELECT", "SHOW", "DESCRIBE"],
+    "max_rows": 1000,
+    "timeout_seconds": 30
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "mysql_mcp.log"
+  }
+}
